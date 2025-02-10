@@ -1,8 +1,11 @@
+import Login from "./componetes/login/Login.jsx"
+import "./global.scss"
+
 function App(){
   return(
     <>
-    <h1>SISPAR</h1>
-    
+    <Login/> 
+    <styles/>
     </>
   );
 }
