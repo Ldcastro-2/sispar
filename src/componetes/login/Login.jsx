@@ -26,11 +26,11 @@ function Login(){
 
              <input type="password" name="password" id="password"  placeholder="Senha"/>
 
-             <p>Esqueci minha senha</p>
+             <p className={styles.forgotPassword} >Esqueci minha senha</p>
 
              <div className= {styles.boxButton}>
-               <button>Entrar</button>
-               <button>Criar Conta</button>
+               <button className={styles.buttonPrimary} >Entrar</button>
+               <button className={styles.buttonSecondary} >Criar Conta</button>
              </div>
            
            </form>

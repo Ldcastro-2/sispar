@@ -3,15 +3,20 @@
 main{
     display: flex;
     align-items: center;
+    //background-color: aqua;
 
-
+}
 .containerFoto{
-  
+  width: 65%;
+  height: 100vh;
     //background-color: yellow ;
+    img{
+        height: 100vh;
+    }
     
 }
 
-.fromWapper{
+.formWapper{
     //border: solid red;
     width: 35%;
     height: 100vh;
@@ -70,11 +75,47 @@ button{
     width: 5vw;
     height: 4vh;
     border-radius: 6px;
+    font-family: 1rem;
+    font-weight: bold;
+}
+.buttonPrimary{
+    background-color: #001a3d; /* Cor de fundo preenchendo todo o botão */
+    color: white;
+    border: #001a3d;
+
+    &:hover {
+        background-color:#001a3d ;
+        transform: scale(1.05);
+    }
+}
+    
 
 
+.buttonSecondary{
+    background-color: #0056b3; /* Cor preenchendo todo o botão */
+    color: white;
+    border: #0056b3 ;
+
+    &:hover {
+        background-color: #0056b3;
+        transform: scale(1.05); 
+}
+
+.forgotPassword {
+    color: black;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+        color: #0056b3;
+    }
 }
 
 }
+
+
 
 
 
